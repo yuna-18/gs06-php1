@@ -1,6 +1,52 @@
-#registration input {
-  display: block;
-}
-#registration input[type=checkbox] {
-  display: inline-block;
+@media screen {
+  h1 {
+    text-align: center;
+    margin-top: 8vw;
+  }
+  #registration {
+    padding: 8vw 4vw;
+  }
+  #registration input[type=text] {
+    display: block;
+    width: 80%;
+    margin-top: 2vw;
+  }
+  #registration input[type=checkbox] {
+    display: inline-block;
+  }
+  #registration .form__container {
+    width: 100%;
+    border: 1px solid #000;
+  }
+  #registration .form__container .input__outer {
+    padding: 0 2vw;
+  }
+  #registration .form__container .input__outer + .input__outer {
+    margin-top: 5.3333333333vw;
+  }
+  #registration .form__container .input__outer .input-check__list {
+    display: block;
+  }
+  #registration .form__container .input__outer .input-check__item {
+    margin-top: 2vw;
+  }
+  #registration .form__container .input__outer .question,
+  #registration .form__container .input__outer label {
+    font-size: 4.2666666667vw;
+  }
+  #registration .form__container:first-child {
+    padding: 4vw 0;
+  }
+  #registration .confirm-btn {
+    color: #000;
+    background-color: lightgrey;
+    display: block;
+    width: 48vw;
+    height: 12vw;
+    line-height: 12vw;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 5.3333333333vw auto 0;
+    text-decoration: none;
+  }
 }

@@ -1,9 +1,68 @@
+@media screen {
+  h1 {
+    text-align: center;
+    margin-top: calc(60 / 750 * 100vw);
+  }
 
-#registration {
-  input {
-    display: block;
+  #registration {
+    padding: calc(60 / 750 * 100vw) calc(30 / 750 * 100vw);
+
+
+    input[type="text"] {
+      display: block;
+      width: 80%;
+      margin-top: calc(15 / 750 * 100vw);
+    }
+
+    input[type="checkbox"] {
+      display: inline-block;
+    }
+
+
+    .form__container {
+      width: 100%;
+      border: 1px solid #000;
+
+      .input__outer {
+        padding: 0 calc(15 / 750 * 100vw);
+
+        + .input__outer {
+          margin-top: calc(40 / 750 * 100vw);
+        }
+
+        .input-check__list {
+          display: block;
+        }
+
+        .input-check__item {
+          margin-top: calc(15 / 750 * 100vw);
+        }
+
+        .question,
+        label {
+          font-size: calc(32 / 750 * 100vw);
+        }
+      }
+
+      &:first-child {
+        padding: calc(30 / 750 * 100vw) 0;
+      }
+
+
+    }
+
+    .confirm-btn {
+      color: #000;
+      background-color: lightgrey;
+      display: block;
+      width: calc(360 / 750 * 100vw);
+      height: calc(90 / 750 * 100vw);
+      line-height: calc(90 / 750 * 100vw);
+      text-align: center;
+      border: 1px solid #000;
+      margin: calc(40 / 750 * 100vw) auto 0;
+      text-decoration: none;
+    }
   }
-  input[type="checkbox"] {
-    display: inline-block;
-  }
+
 }
