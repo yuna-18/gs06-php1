@@ -1,0 +1,6 @@
+#registration input {
+  display: block;
+}
+#registration input[type=checkbox] {
+  display: inline-block;
+}
