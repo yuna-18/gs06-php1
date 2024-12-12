@@ -11,6 +11,8 @@
     text-align: center;
     border: 1px solid #000;
     font-size: calc(32 / 750 * 100vw);
+    font-family: Arial;
+    font-weight: bold;
   }
 }
 
@@ -52,7 +54,8 @@
     h1 {
       text-align: center;
       margin-top: calc(60 / 750 * 100vw);
-      font-size: calc(32 / 750 * 100vw);
+      font-size: calc(36 / 750 * 100vw);
+      font-weight: bold;
     }
 
     input[type="text"] {
@@ -86,11 +89,26 @@
 
           .input-check__item {
             margin-top: calc(15 / 750 * 100vw);
+
+            label {
+              display: block;
+              position: relative;
+              padding-left: 2em;
+              line-height: 2em;
+
+              input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                margin: auto;
+              }
+            }
           }
 
           .question,
           label {
-            font-size: calc(20 / 750 * 100vw);
+            font-size: calc(28 / 750 * 100vw);
           }
         }
 
@@ -116,6 +134,7 @@
     align-items: center;
     height: 100%;
     padding: 30vh 0;
+
     .confirm__wrapper {
       .confirm__container {
 
@@ -125,7 +144,7 @@
           padding: calc(30 / 750 * 100vw) 0;
 
           p {
-            font-size: calc(20 / 750 * 100vw);
+            font-size: calc(28 / 750 * 100vw);
           }
 
           .notation p {
@@ -150,7 +169,7 @@
 
             .confirm__content {
               margin-top: calc(15 / 750 * 100vw);
-              font-size: calc(20 / 750 * 100vw);
+              font-size: calc(28 / 750 * 100vw);
             }
           }
         }
@@ -167,6 +186,7 @@
           width: calc(240 / 750 * 100vw);
           height: calc(60 / 750 * 100vw);
           line-height: calc(60 / 750 * 100vw);
+          border-radius: calc(10 / 750 * 100vw);
         }
       }
     }
@@ -181,6 +201,7 @@
     align-items: center;
     height: 100%;
     padding: 30vh 0;
+
     .complete__container {
       padding: calc(60 / 750 * 100vw) calc(30 / 750 * 100vw);
 

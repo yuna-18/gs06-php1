@@ -30,32 +30,26 @@
           <p class="question">好きな音楽のカテゴリ</p>
           <ul class="input-check__list">
             <li class="input-check__item">
-              <input type="checkbox" name="categories[]" id="orchestra" value="オーケストラ">
-              <label for="orchestra">オーケストラ</label>
+              <label for="orchestra"><input type="checkbox" name="categories[]" id="orchestra" value="オーケストラ">オーケストラ</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="categories[]" id="wind-orchestra" value="吹奏楽">
-              <label for="wind-orchestra">吹奏楽</label>
+              <label for="wind-orchestra"><input type="checkbox" name="categories[]" id="wind-orchestra" value="吹奏楽">吹奏楽</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="categories[]" id="chamber-music-ensemble" value="室内楽・アンサンブル">
-              <label for="chamber-music-ensemble">室内楽・アンサンブル</label>
+              <label for="chamber-music-ensemble"><input type="checkbox" name="categories[]" id="chamber-music-ensemble" value="室内楽・アンサンブル">室内楽・アンサンブル</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="categories[]" id="jazz" value="ジャズ">
-              <label for="jazz">ジャズ</label>
+              <label for="jazz"><input type="checkbox" name="categories[]" id="jazz" value="ジャズ">ジャズ</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="categories[]" id="solo" value="ソロ">
-              <label for="solo">ソロ</label>
+              <label for="solo"><input type="checkbox" name="categories[]" id="solo" value="ソロ">ソロ</label>
             </li>
           </ul>
         </div>
         <div class="input__outer">
           <p class="question">メールで演奏会の通知を受け取れます。</p>
           <div class="input-check__item">
-            <input type="checkbox" name="subscribe-mail" id="subscribe-mail" value="受け取る">
-            <label for="subscribe-mail">受け取る</label>
+            <label for="subscribe-mail"><input type="checkbox" name="subscribe-mail" id="subscribe-mail" value="受け取る">受け取る</label>
           </div>
         </div>
       </div>
