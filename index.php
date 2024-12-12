@@ -30,23 +30,23 @@
           <p class="question">好きな音楽のカテゴリ</p>
           <ul class="input-check__list">
             <li class="input-check__item">
-              <input type="checkbox" name="orchestra" id="orchestra" value="オーケストラ">
+              <input type="checkbox" name="categories[]" id="orchestra" value="オーケストラ">
               <label for="orchestra">オーケストラ</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="wind-orchestra" id="wind-orchestra" value="吹奏楽">
+              <input type="checkbox" name="categories[]" id="wind-orchestra" value="吹奏楽">
               <label for="wind-orchestra">吹奏楽</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="chamber-music-ensemble" id="chamber-music-ensemble" value="室内楽・アンサンブル">
+              <input type="checkbox" name="categories[]" id="chamber-music-ensemble" value="室内楽・アンサンブル">
               <label for="chamber-music-ensemble">室内楽・アンサンブル</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="jazz" id="jazz" value="ジャズ">
+              <input type="checkbox" name="categories[]" id="jazz" value="ジャズ">
               <label for="jazz">ジャズ</label>
             </li>
             <li class="input-check__item">
-              <input type="checkbox" name="solo" id="solo" value="ソロ">
+              <input type="checkbox" name="categories[]" id="solo" value="ソロ">
               <label for="solo">ソロ</label>
             </li>
           </ul>
